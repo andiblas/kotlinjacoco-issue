@@ -6,7 +6,7 @@ import org.junit.Test
 class CustomerBuilderTest {
 
     @Test
-    fun testStupidSetters() {
+    fun testSetters() {
         // WHEN
         val customerBuilder = CustomerBuilder().id(1).name("Test")
 
